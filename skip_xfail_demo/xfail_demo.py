@@ -13,6 +13,7 @@ def test_xfail():
     print("测试步骤")
     assert True
 
+
 @pytest.mark.xfail
 def test_a():
     print("test_xfail")
