@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Jun 17 13:29:31 GMT+08:00 2022","Fri Jun 17 13:29:31 GMT+08:00 2022","0","","test_allure_command","","","","test_failure","this test fail"
+"broken","Fri Jun 17 13:29:31 GMT+08:00 2022","Fri Jun 17 13:29:31 GMT+08:00 2022","0","","test_allure_command","","","","test_broken",""
+"passed","Fri Jun 17 13:29:31 GMT+08:00 2022","Fri Jun 17 13:29:31 GMT+08:00 2022","0","","test_allure_command","","","","test_success","
+    this test succeed
+    :return:
+    "
+"skipped","Fri Jun 17 13:29:31 GMT+08:00 2022","Fri Jun 17 13:29:31 GMT+08:00 2022","0","","test_allure_command","","","","test_skip","this test is skipped"

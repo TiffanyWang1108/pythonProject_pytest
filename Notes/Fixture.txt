@@ -1,0 +1,12 @@
+特点及优势：
+1、命令灵活
+2、数据共享
+
+
+
+在自动化中的作用域
+function
+class
+module
+package
+session
