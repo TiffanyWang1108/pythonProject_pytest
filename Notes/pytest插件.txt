@@ -3,6 +3,7 @@ web: pypi.org
 重点：
 pytest-ordering: 控制用例的执行顺序
 pytest-xdist: 分布式并发执行测试用例
+  多进程并发执行，同时支持Allure
 了解:
 pytest-dependency: 控制用例的依赖关系
 pytest-rerunfailures: 失败重跑
@@ -11,3 +12,25 @@ pytest=random-order: 用例随机执行
 pytest-html 测试报告
 本地插件：pytest自动模块发现机制（conftest.py存放的）
 内置插件：代码内部的_pytest目录加载
+
+
+
+hook 函数：
+在系统消息触发时被系统调用
+自动触发机制
+名称确定
+使用时直接编写函数体
+函数名字固定。会被自动执行。有先后顺序。一般放在conftest.py
+
+pytest插件开发：
+打包配置：
+源码
+setup.py
+
+打包命令：
+依赖包安装：
+pip install setuptools: python的包管理工具，负责安装和发布，尤其是安装拥有信赖关系的包。
+pip isntall wheel 生成.whl格式的安装包，本质上也是一个压缩包
+
+打包命令：
+python setup.py sdist bdist_wheel
